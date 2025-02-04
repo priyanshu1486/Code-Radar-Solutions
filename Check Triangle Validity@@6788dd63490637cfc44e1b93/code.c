@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+
+int a,b,c;
+scanf("%d %d %d", a, b, c);
+
+
+int main() {
+    if((a*a) + (b*b) == (c*c) && (b*b) + (c*c) == (a*a) && (a*a) + (c*c) == (b*b)){
+        printf("Valid");
+    }
+    else{
+        printf("Invald");
+    }
+    return 0;
+}
