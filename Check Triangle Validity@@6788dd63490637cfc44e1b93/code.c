@@ -10,7 +10,7 @@ int main() {
     scanf("%f", &b);
     scanf("%f", &c);
 
-    if((a*a) + (b*b) == (c*c)) || (b*b) + (c*c) == (a*a) || (a*a) + (c*c) == (b*b)){
+    if((a*a) + (b*b) == (c*c)) || (b*b) + (c*c) == (a*a) || (a*a) + (c*c) == (b*b){
         printf("Valid");
     }
     else{
