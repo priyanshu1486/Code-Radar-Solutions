@@ -6,11 +6,11 @@ int main() {
     if(d>=97 && d<=122){
         printf("Lowercase");
     }
-    else if(d>0 && d<10000){
-        printf("Not an alphabet");
+    else if(d<=97 && d >=122){
+        printf("Uppercase");
     }
     else{
-        printf("Uppercase");
+        printf("Not an alphabet");
     }
     return 0;
 }
