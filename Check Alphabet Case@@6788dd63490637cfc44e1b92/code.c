@@ -3,14 +3,16 @@
 int main() {
     char d;
     scanf("%c", &d);
-    if(d>=97 && d<=122){
-        printf("Lowercase");
+
+    if (d >= 'a' && d <= 'z') { 
+        printf("Lowercase\n");
+    } 
+    else if (d >= 'A' && d <= 'Z') {
+        printf("Uppercase\n");
+    } 
+    else {  
+        printf("Not an alphabet\n");
     }
-    else if(d<=97 && d >=122){
-        printf("Uppercase");
-    }
-    else{
-        printf("Not an alphabet");
-    }
+
     return 0;
 }
