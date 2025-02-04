@@ -1,8 +1,10 @@
 #include <stdio.h>
 
 
-int a,b,c;
-scanf("%d %d %d", a, b, c);
+float a,b,c;
+scanf("&f", a);
+scanf("&f", b);
+scanf("&f", c);
 
 
 int main() {
