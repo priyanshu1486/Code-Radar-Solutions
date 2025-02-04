@@ -6,7 +6,6 @@ int main() {
         print("Vowel");
 
     }
-    else if()
 
     return 0;
 }
