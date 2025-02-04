@@ -14,7 +14,5 @@ int main() {
     {
         printf("Odd");
     }
-
-    printf("%s", welcome());
     return 0;
 }
