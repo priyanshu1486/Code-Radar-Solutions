@@ -54,7 +54,7 @@ int main() {
             printf("%d", day);
             break;
         default:
-            printf("Invalid Month");
+            printf("Invalid month");
             
 
 
