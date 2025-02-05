@@ -53,7 +53,8 @@ int main() {
             day=31;
             printf("%d", day);
             break;
-        
+        default:
+            printf("Invalid");
             
 
 
