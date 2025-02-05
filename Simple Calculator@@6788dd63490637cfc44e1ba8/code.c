@@ -7,20 +7,20 @@ int main() {
      switch (operatores){
         case '+':
         result = num1 + num2;
-        printf("%lf", result);
+        printf("%l.0f", result);
         break;
         case '-':
         result = num1 - num2;
-        printf("%lf", result);
+        printf("%l.0f", result);
         break;
         case '*':
         result = num1 * num2;
-        printf("%lf", result);
+        printf("%l.0f", result);
         break;
         case '/':
         if(num2 !=0){
             result = num1/num2;
-            printf("%lf", result);
+            printf("%l.0f", result);
             break;
         }
         else{
