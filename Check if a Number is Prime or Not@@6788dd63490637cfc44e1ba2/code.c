@@ -9,7 +9,7 @@ int main() {
         not_prime =1;
     }
     else{
-        for(int i=2; i<n; i++){
+        for(int i=2; i<num; i++){
             if(n%i == 0){
                 not_prime=1;
             }
