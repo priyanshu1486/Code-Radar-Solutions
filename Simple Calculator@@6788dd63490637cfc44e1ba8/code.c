@@ -2,25 +2,25 @@
 
 int main() {
      char operatores;
-     double num1,num2,result;
-     scanf("%lf %lf %c ", &num1, &num2, &operatores);
+     int num1,num2,result;
+     scanf("%d %d %c ", &num1, &num2, &operatores);
      switch (operatores){
         case '+':
         result = num1 + num2;
-        printf("%l.0f", result);
+        printf("%d", result);
         break;
         case '-':
         result = num1 - num2;
-        printf("%l.0f", result);
+        printf("%d", result);
         break;
         case '*':
         result = num1 * num2;
-        printf("%l.0f", result);
+        printf("%d", result);
         break;
         case '/':
         if(num2 !=0){
             result = num1/num2;
-            printf("%l.0f", result);
+            printf("%d", result);
             break;
         }
         else{
