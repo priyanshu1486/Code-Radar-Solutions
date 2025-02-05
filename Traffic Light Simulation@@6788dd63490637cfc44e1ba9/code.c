@@ -1,10 +1,18 @@
 #include <stdio.h>
-
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
-
 int main() {
-    printf("%s", welcome());
+    char d;
+    scanf("%c", &d);
+    switch (d){
+        case 'R':
+            printf("Stop");
+        case 'G':
+            printf("Go");
+        case 'Y':
+            printf("Slow DOwn");
+        default:
+            printf("Invalid input");
+        
+    }
+
     return 0;
 }
