@@ -5,7 +5,7 @@
 int main() {
     int num, not_prime=0;
     scanf("%d", &num);
-    if(num == 1 || num == 2){
+    if(num == 1 || num == 0){
         not_prime =1;
     }
     else{
