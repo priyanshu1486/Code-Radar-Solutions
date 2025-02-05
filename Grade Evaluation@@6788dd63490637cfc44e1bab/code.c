@@ -4,7 +4,6 @@
 int main() {
     char grade;
     scanf("%c", &grade);
-    grade = toupper(grade);  // Convert lowercase to uppercase
 
     switch (grade){
         case 'A': printf("Excellent"); break;
