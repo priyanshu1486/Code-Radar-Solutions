@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main() {
-    float n1,n2;
+    int n1,n2;
     scanf("%d %d", &n1, &n2);
 
-    if((a/b) == b){
+    if((n1/n2) == n2){
         printf("Yes");
     }
     else{
