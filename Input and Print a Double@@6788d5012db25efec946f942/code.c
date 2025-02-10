@@ -2,6 +2,6 @@
 int main() {
     double s;
     scanf("%lf", &s);
-    printf("%lf", s);
+    printf("You entered: %lf", s);
     return 0;
 }
