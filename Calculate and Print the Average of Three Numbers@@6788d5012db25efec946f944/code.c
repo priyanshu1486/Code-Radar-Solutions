@@ -4,12 +4,12 @@
 
 int main() {
     int a,b,c;
-    float avg;
+    float avgd;
     
     scanf("%d %d %d", &a,&b,&c);
-    avg = (a+b+c)/3.0
+    avgd = (a+b+c)/3.0
 
     
-    printf("Average: %.2f", avg);
+    printf("Average: %.2f", avgd);
     return 0;
 }
