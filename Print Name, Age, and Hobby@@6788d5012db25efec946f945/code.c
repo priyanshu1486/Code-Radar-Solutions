@@ -3,8 +3,10 @@
 int main() {
     char str[100];
     scanf("%99s", str);
+
     int a;
     scanf("%d", a);
+    
     char str2[100];
     scanf("%99s", str2);
     
