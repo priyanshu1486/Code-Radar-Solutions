@@ -11,7 +11,7 @@ int main(){
             printf("*");
         }
         for(int l=1;l<=n-i;l++){
-            printf(" ");
+            printf("*");
         }
         printf("\n");
     }
