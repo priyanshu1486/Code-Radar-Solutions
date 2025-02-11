@@ -7,6 +7,6 @@ int main(){
         for(int j=1;j<=2*i;j++){
             printf("*");
         }
-        printf("\n")
+        printf("\n");
     }
 }
