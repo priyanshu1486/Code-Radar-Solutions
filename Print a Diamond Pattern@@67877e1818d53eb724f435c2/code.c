@@ -17,7 +17,7 @@ int main(){
             printf(" ");
         }
         for(g=1;g<=2*i-1;g++){
-            printf("*")
+            printf("*");
         }
         printf("\n");
     }
