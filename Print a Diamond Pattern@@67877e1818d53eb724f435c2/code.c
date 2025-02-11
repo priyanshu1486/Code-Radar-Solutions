@@ -10,8 +10,14 @@ int main(){
         for(int k=1;k<=2*i-1;k++){
             printf("*");
         }
-        for(int l=1;l<=i;l++){
-            printf("");
+        printf("\n");
+    }
+    for(int e=n-1;e>=1;e--){
+        for(f=1;f<=n-i;f++){
+            printf(" ");
+        }
+        for(g=1;g<=2*i-1;g++){
+            printf("*")
         }
         printf("\n");
     }
