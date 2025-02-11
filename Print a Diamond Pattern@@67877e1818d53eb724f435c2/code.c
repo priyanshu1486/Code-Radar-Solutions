@@ -10,6 +10,9 @@ int main(){
         for(int k=1;k<=2*i-1;k++){
             printf("*");
         }
+        for(int l=1;l<=n-i;l++){
+            printf(" ");
+        }
         printf("\n");
     }
 }
