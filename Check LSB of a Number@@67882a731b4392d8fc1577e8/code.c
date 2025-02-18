@@ -1,10 +1,10 @@
 // Your code here...#include <stdio.h>
 
 int main() {
-    unsigned int num;
+    int num;
 
     // Input from the user
-    scanf("%u", &num);
+    scanf("%d", &num);
 
     // Check the least significant bit
     if (num & 1) {
