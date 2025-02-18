@@ -6,7 +6,7 @@ int main() {
     scanf("%u %u", &num,&n);
 
     
-    printf("%d",(num & (1<<n)));
+    printf("%d",num & (1<<n));
     
 
     return 0;
