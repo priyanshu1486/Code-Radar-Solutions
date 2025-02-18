@@ -1,13 +1,17 @@
-// Your code here...
 #include <stdio.h>
 
 int main() {
-    unsigned int num,n;
-    scanf("%u %u", &num,&n);
+    unsigned int num, n;
 
-    
-    printf("%d",num & (1<<n));
-    
+    scanf("%u", &num);
+    scanf("%u", &n);
+
+    // Check if the n-th bit is set
+    if (num & (1 << n)) {
+        printf("%u", n);
+    } else {
+        printf("%u", n);
+    }
 
     return 0;
 }
