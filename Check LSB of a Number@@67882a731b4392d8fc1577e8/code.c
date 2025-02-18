@@ -1,17 +1,17 @@
 // Your code here...#include <stdio.h>
 
 int main() {
-    unsigned int num;
+    int num;
 
     // Input from the user
     printf("Enter a number: ");
-    scanf("%u", &num);
+    scanf("%d", &num);
 
     // Check the least significant bit
     if (num & 1) {
-        printf("The least significant bit is 1.\n");
+        printf("Set");
     } else {
-        printf("The least significant bit is 0.\n");
+        printf("Not Set");
     }
 
     return 0;
