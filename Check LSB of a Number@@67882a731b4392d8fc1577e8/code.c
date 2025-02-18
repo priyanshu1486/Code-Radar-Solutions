@@ -8,10 +8,10 @@ int main() {
     scanf("%d", &num);
 
     // Check the least significant bit
-    if(num & 0) {
-        printf("Not Set");
-    } else {
+    if(num & 1) {
         printf("Set");
+    } else {
+        printf("Not Set");
     }
 
     return 0;
