@@ -1,4 +1,5 @@
-// Your code here...#include <stdio.h>
+// Your code here...
+#include <stdio.h>
 
 int main() {
     int num;
@@ -7,7 +8,7 @@ int main() {
     scanf("%d", &num);
 
     // Check the least significant bit
-    if (num & 1) {
+    if(num & 1) {
         printf("Set");
     } else {
         printf("Not Set");
