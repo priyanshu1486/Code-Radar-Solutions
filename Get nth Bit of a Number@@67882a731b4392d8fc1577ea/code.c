@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 int main() {
-    unsigned int num, n;
+    int num, n;
     
     // Input the number and bit positio
-    scanf("%u", &num);
-    scanf("%u", &n);
+    scanf("%D", &num);
+    scanf("%D", &n);
 
     // Retrieve the n-th bit
     unsigned int bit_value = (num >> n) & 1;
