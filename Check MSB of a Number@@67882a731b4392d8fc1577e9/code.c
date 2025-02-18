@@ -2,11 +2,10 @@
 #include <stdio.h>
 
 int main() {
-    long int num;
+    int num;
 
     // Input from the user
-    printf("Enter a number: ");
-    scanf("%u", &num);
+    scanf("%d", &num);
 
     // Check the least significant bit
     if (num | 1) {
