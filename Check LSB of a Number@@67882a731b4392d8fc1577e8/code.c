@@ -9,7 +9,7 @@ int main() {
 
     // Check the least significant bit
     if(num & 0) {
-        printf(" Not Set");
+        printf("Not Set");
     } else {
         printf("Set");
     }
