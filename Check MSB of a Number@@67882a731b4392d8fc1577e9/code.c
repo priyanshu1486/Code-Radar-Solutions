@@ -8,7 +8,7 @@ int main() {
     scanf("%d", &num);
 
     // Check the least significant bit
-    if (num | 1) {
+    if (num & (1<<31)) {
         printf("Set");
     } else {
         printf("Not Set");
