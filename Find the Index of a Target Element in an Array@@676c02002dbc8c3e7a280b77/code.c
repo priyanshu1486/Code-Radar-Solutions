@@ -16,9 +16,9 @@ int main(){
             printf("%d",i);
             break;
         }
-        else{
-            printf("-1");
-        }
+    }
+    else{
+        printf("-1");
     }
     
     return 0;
