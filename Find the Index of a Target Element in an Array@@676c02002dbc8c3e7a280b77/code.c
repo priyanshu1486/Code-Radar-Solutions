@@ -13,13 +13,11 @@ int main(){
     
     for(int i=0;i<n;i++){
         if(arr[i]==x){
-            index=i;
-            return i;
-            
-
+            printf("%d",i);
+            break
         }
         else{
-            return 0;
+            printf("-1");
             }
     }
     
