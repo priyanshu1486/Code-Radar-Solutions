@@ -10,13 +10,24 @@ int main(){
     int x;
     scanf("%d", &x);
     int index=0;
+    int flag=1;
     for(int i=0;i<n;i++){
-        if(arr[i]==x){
-            index=i;
-            break;
+        if(arr[i]!=x){
+            flag=0;
+            
 
         }
+        else if(arr[i]==i){
+            flag=1;
+            index=i;
+        }
     }
-    printf("%d", index);
+    if(flag){
+        printf("%d", index);
+    }
+    else{
+        printf("%d", -1);
+    }
+    else
     return 0;
 }
