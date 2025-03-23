@@ -28,6 +28,6 @@ int main(){
     else{
         printf("%d", -1);
     }
-    else
+    
     return 0;
 }
