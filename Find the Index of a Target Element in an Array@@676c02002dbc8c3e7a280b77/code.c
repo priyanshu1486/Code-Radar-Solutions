@@ -10,17 +10,17 @@ int main(){
     int x;
     scanf("%d", &x);
     int index=0;
-    int flag=1;
+    
     for(int i=0;i<n;i++){
-        if(arr[i]!=x){
-            flag=0;
+        if(arr[i]==x){
+            index=i;
+            return i;
             
 
         }
-        else if(arr[i]==i){
-            flag=1;
-            index=i;
-        }
+        else{
+            return 0;
+            }
     }
     if(flag){
         printf("%d", index);
