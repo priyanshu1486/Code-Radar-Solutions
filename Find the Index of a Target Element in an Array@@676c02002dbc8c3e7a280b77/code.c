@@ -22,12 +22,6 @@ int main(){
             return 0;
             }
     }
-    if(flag){
-        printf("%d", index);
-    }
-    else{
-        printf("%d", -1);
-    }
     
     return 0;
 }
