@@ -15,11 +15,11 @@ int main(){
         
     }
     if (ispalindrome){
-        printf("it is palindrom");
+        printf("YES");
 
     }
     else{
-        printf("not a palindrome.");
+        printf("NO");
     }
     
     
