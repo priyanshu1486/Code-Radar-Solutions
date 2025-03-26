@@ -16,9 +16,12 @@ int main(){
             break;
         }
         }
-        else if(arr[n-1]>arr[n-2]){
-            max=arr[n-1];
-        }
+    if(arr[n-1]>arr[n-2]){
+        max=arr[n-1];
+    }
+    else{
+        max=-1;
+    }
     printf("%d", max);
     return 0;
 }
