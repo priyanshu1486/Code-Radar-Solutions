@@ -32,6 +32,6 @@ int main() {
         printf("-1");
     }
 
-    printf("No peak element");
+    
     return 0;
 }
