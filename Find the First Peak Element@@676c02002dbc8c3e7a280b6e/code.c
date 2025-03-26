@@ -17,7 +17,7 @@ int main(){
         }
         else if(arr[n-1]>arr[n-2]){
             max=arr[n-1];
-    }
+        }
         }
     
     
