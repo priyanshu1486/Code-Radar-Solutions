@@ -6,7 +6,7 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d", &arr[i]);
     }
-    int max=0;
+    int max=-1;
     if(n==1 || arr[0]>arr[1]){
         max=arr[0];
     }
@@ -19,9 +19,7 @@ int main(){
     if(arr[n-1]>arr[n-2]){
         max=arr[n-1];
     }
-    else{
-        max=-1;
-    }
+    
     printf("%d", max);
     return 0;
 }
