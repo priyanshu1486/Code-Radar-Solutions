@@ -13,7 +13,7 @@ int main(){
             count++;
         }
 
-        else if(arr[i]%2 !=0 && arr[i]%3!=0){
+        else if(arr[i]%2 !=0 && arr[i]%3!=0 && arr[i]%5!=0 arr[i]%7!=){
             count++;
         }
     }
