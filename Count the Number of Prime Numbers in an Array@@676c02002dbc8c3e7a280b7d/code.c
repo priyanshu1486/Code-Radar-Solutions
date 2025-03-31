@@ -9,12 +9,13 @@ int main(){
     }
     int count=0;
     for(int i=0;i<n;i++){
-        if(arr[i]==2 || arr[i]==3){
+        if(arr[i]==2){
             count++;
         }
-
-        else if(arr[i]%2 !=0 && arr[i]%3!=0 && arr[i]%5!=0 arr[i]%7!=){
-            count++;
+        for(int j=2;j<arr[i];j++){
+            if(arr[i]%j!=0){
+                count++;
+            }
         }
     }
     printf("%d", count);
