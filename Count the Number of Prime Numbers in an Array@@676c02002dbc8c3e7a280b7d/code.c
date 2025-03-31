@@ -13,7 +13,10 @@ int main(){
             count++;
         }
         for(int j=2;j<arr[i];j++){
-            if(arr[i]%j!=0){
+            if(arr[i]%j==0){
+                count=count;
+            }
+            else{
                 count++;
             }
         }
