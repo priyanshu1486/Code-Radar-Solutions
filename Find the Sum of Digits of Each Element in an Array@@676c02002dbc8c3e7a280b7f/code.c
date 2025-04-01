@@ -9,6 +9,7 @@ int sum(int num){
         su += num%10;
         num=num/10;
     }
+    return su;
 }
 int main(){
     int n;
