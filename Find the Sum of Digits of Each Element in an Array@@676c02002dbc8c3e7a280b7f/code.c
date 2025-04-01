@@ -15,7 +15,7 @@ int main(){
         scanf("%d", &arr[i]);
     }
     for(int i=0;i<n;i++){
-        int digit=0;;
+        int digit=0;
         digit=sum(arr[i]);
         printf("%d", digit);
     }
